@@ -1,0 +1,32 @@
+body{
+    background-color: #5ddb94;
+    section{
+        position: relative;
+        height: calc(100vh - 120px);
+        width: calc(100% - 40px);
+        padding: 20px;
+        margin: 20px;
+        box-sizing: border-box;
+        z-index: 98;
+        background-color: rgba(0, 0, 0, 0.05);
+        .right.spaceship{
+            float: right;
+            height: 40vh
+        }
+        .left.spaceshipll{
+            float: left;
+            height: 40vh
+
+        }
+    }
+    footer{
+        position: relative;
+        width: 100%;
+        min-height: 50px;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #143967;
+        color: #5ddb94;
+        text-align: center;
+    }
+}
